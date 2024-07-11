@@ -1,0 +1,83 @@
+:root {
+  --font-family: "Ubuntu", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(197, 243, 243);
+  overflow-x: hidden;
+}
+.container {
+  background-color: rgb(200, 160, 238);
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+
+}
+
+img {
+  width: 60px;
+  margin-left: 2rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px 10px;
+  
+}
+
+a:hover{
+  background-color: rgba(250, 235, 215, 0.436);
+  border-radius: 10px;
+
+}
+
+.hero{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.hero h1 {
+  font-size: 46px;
+  font-family: var(--font-family)
+}
+
+footer {
+  width: 100vw;
+  height: 30px;
+  background-color: rgb(24, 24, 24);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h5 {
+  color: white;
+  font-size: 16px;
+}
